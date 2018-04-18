@@ -50,3 +50,49 @@ print("\n" * 5)
 # the two print statements will be on the same line, but after right now, an end line will occur
 print("I dont feel like using end line ", end="")
 print("right now.")
+
+# Lets say we want to find the 4th index of a string
+long_string = "I'll run another 2 miles tomorrow morning"
+
+# [starting_index:how_many_indeces]
+print(long_string[0:4])
+
+# Do you want to print the last word?
+print(long_string[-7:])
+
+# print everything up to the last word?
+print(long_string[:-7])
+
+print(long_string[:4] + " be there...")
+
+# char string digit decimal with 5 places
+print("%c - %s - %d - %.5f" % ('X', 'favorite', 1, .14))
+
+# capitalize a string
+st = "string"
+
+# want to capitalize the first letter?
+print(st.capitalize())
+
+# Where is miles located?
+print(long_string.find("miles"))
+
+# check to see if string is all alphabets
+print(long_string.isalpha())
+
+# check to see if it is a number
+print(long_string.isalnum())
+
+# the length
+print(len(long_string))
+
+# replace a word with another
+print(long_string.replace("miles", "kilometers"))
+
+# to strip white space from a string
+# long_string.strip()
+
+# split string into a list
+split_list = long_string.split(" ")
+
+print(split_list)
