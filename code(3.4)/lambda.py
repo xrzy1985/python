@@ -20,4 +20,6 @@ def func1 (a, b, c):
 print(func1(1,2,3))
 
 # So, you can see how lambda expressions really help us out in the
-# actual lines of code we need to write. 
+# actual lines of code we need to write.
+
+# https://www.python-course.eu/python3_lambda.php
